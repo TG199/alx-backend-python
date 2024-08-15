@@ -3,4 +3,6 @@
 
 
 def to_str(n: float) -> str:
+    """ returns string rep of float number
+    """
     return str(n)
