@@ -1,4 +1,4 @@
-#!/usr/bin/python/env python3
+#!/usr/bin/env python3
 """ Mixed list Module"""
 from typing import List, Union
 
