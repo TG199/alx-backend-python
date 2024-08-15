@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""Sum module"""
+
 
 def add(a: float, b: float) -> float:
     """ Sum up 2 float numbers
