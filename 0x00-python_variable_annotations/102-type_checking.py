@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """Use mypy"""
-from typing import Tuple, List, Sequence
+from typing import Tuple, List
 
 
-# zoomed array
-def zoom_array(lst: Sequence[int], factor: int = 2) -> List[int]:
+def zoom_array(lst: Tuple[int, ...], factor: int = 2) -> List[int]:
     """ Zoomed array
     """
     zoomed_in: List[int] = [
@@ -14,7 +13,7 @@ def zoom_array(lst: Sequence[int], factor: int = 2) -> List[int]:
     return zoomed_in
 
 
-array = [12, 72, 91]
+array = (12, 72, 9)
 
 zoom_2x = zoom_array(array)
 
