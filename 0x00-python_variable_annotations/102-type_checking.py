@@ -3,6 +3,7 @@
 from typing import Tuple, List, Sequence
 
 
+# zoomed array
 def zoom_array(lst: Sequence[int], factor: int = 2) -> List[int]:
     """ Zoomed array
     """
