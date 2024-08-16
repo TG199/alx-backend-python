@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """ Mapping Module"""
-from typing import Mapping, Any, Union, TypeVar
+from typing import TypeVar, Mapping, Any, Union
 
 
-def safely_get_value(dct: Mapping, key: Any, default:
-                     Union[TypeVar, None] = None) -> Union[Any, TypeVar]:
+T = TypeVar('T')
+
+
+def safely_get_value(dct: Mapping[Any, T], key: Any, default:
+                     Union[T, None] = None) -> Union[Any, T]:
     """ More Mappings
     """
     if key in dct:
