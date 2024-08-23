@@ -2,7 +2,7 @@
 """Measure module"""
 import time
 import asyncio
-from async_comprehension import async_comprehension
+from 1-async_comprehension import async_comprehension
 
 
 async def measure_runtime():
